@@ -3,8 +3,8 @@ from Sender import Main
 main= Main.Main()
 
 ##set verifying key, json data, template parameter
-##edit the parameters
-main.setSMTP(yourID,yourPASSWORD)
-##edit the parameters
-main.setInfor( "2432",'{"sender":yourEMAIL, "receiver":othersEMAIL, "subject":"hello_world!"}',"1")
+##edit the parameters (smtp login)
+main.setSMTP(yourID,yourPW)
+##edit the parameters (verifying key, json data, html template)
+main.setInfor( yourVarifyingKey,'{"sender":yourEMAIL, "receiver":othersEMAIL, "subject":"hello_world!"}',"1")
 main.run()

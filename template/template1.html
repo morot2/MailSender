@@ -8,71 +8,33 @@
   </meta>
  </head>
  <body>
-  <style>
-   .container{
-            padding:5%;
-            padding-right: 10%;
-            padding-left: 10%;
-        }
-        header{
-            background-color: aliceblue;
-        }
-       #hello{
-           text-align: right;
-            margin-right:20%;
-        }
-        hr#helloTop{
-            border-color: lightblue;
-            border-width: 10px;
-        }
-        hr#helloBottom{
-            border-color: lightblue;
-            border-width: 5px;
-        }
-        #explain{
-            margin-top: 5%;
-            margin-bottom:5%;
-            font-weight:bold;
-        }
-        main{
-            text-align: center;
-        }
-        #code{
-            padding:3%;
-            margin:1%;
-            border:1px solid lightblue;
-        }
-        mark{
-            background-color: lightblue;
-            font-size : 2em;
-        }
-  </style>
-  <div class="container">
-   <header>
-    <hr id="helloTop"/>
-    <section class="row" id="hello">
+  <div class="container" style="padding:5%; padding-right: 10%; padding-left: 10%; font-family: 'Source Sans Pro'">
+   <header style="background-color: aliceblue;">
+    <section class="row" id="hello" style="text-align: right; border-top: 10px solid dodgerblue; border-bottom: 2px solid dodgerblue">
      <section class="col-md-6">
      </section>
-     <section class="col-md-6">
-      <h4>
+     <section class="col-md-6" style="margin-right:15%">
+      <br/>
+      <h4 style="font-family: '나눔고딕 ExtraBold'; font-size: 1.5em">
        안녕하세요!
       </h4>
-      <h2>
+      <h2 style="font-family: '나눔고딕 ExtraBold'; font-size: 2em">
        수강꿀팁입니다.
       </h2>
+      <br/>
      </section>
     </section>
-    <hr id="helloBottom"/>
    </header>
-   <main>
-    <section class="row" id="explain">
+   <main style="text-align: center;">
+    <section class="row" id="explain" style="margin-top: 5%; margin-bottom:5%; font-weight:bold; font-size: 1.5em">
      본 메일은 수강꿀팁의 회원가입 인증번호 발송메일입니다.
     </section>
-    <section class="row" id="code">
-     아래의 인증번호를 회원가입 페이지의 빈칸에 입력 후 확인 버튼을 누르시면 회원가입이 완료됩니다.
+    <br/>
+    <section class="row" id="code" style="padding:3%; margin:1%; border:1px solid lightblue; font-size: 1.5em">
+     아래의 인증번호를 회원가입 페이지의 빈칸에 입력 후 확인 버튼을 누르시면 가입이 완료됩니다.
      <br/>
      <br/>
-     <mark id="verifyKey">
+     <mark id="verifyKey" style="background-color: lightblue; font-size : 1.5em;">
       2432
      </mark>
     </section>
