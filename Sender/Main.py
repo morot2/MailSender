@@ -22,22 +22,22 @@ class Main:
         self.templateId=templateId
 
     def run(self):
-        ##publish to Q
+        # publish to Q
         sendMQ.setVar(self.templateId, self.params)
         sendMQ.sendMQ()
 
-        ##edit html to insert verifying key
+        # edit html to insert verifying key
         editHTML.setTemplateId(self.templateId)
         editHTML.setVarifyKey(self.verifyKey)
         editHTML.editHTML()
 
-        ##set Queue
-        ##receiveMQ.setQueue(queueName)
+        ## ------------- set Message Queue ----------------
+        # receiveMQ.setQueue(queueName)
 
-        ##subscribe from Q
+        # subscribe from Q
         parser = receiveMQ.receiveMQ()
 
-        ##send mail
+        #send mail
         sendMail = parser.getSendMail()
         sendMail.setSMTP(self.smtpId,self.smtpPassword)
         sendMail.sendMail()

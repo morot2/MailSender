@@ -3,8 +3,8 @@ import pika
 
 class SendMQ:
 
-    params = "" ## json data
-    templateId = "" ##html template ID
+    params = "" # json data
+    templateId = "" # html template ID
     msg=""
 
     def setVar(self,tempId,params):
@@ -17,7 +17,7 @@ class SendMQ:
         channel = connection.channel()
         channel.queue_declare(queue='test')
         channel.basic_publish(exchange='',
-                      routing_key='test',
+                      routing_key='test', # route to test queue
                       body=self.msg)
         print(" [x] Sent %r" % self.msg)
         connection.close()

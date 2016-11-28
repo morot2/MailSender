@@ -3,7 +3,7 @@ import pika
 from Sender import Parser
 
 msg=''
-parser= Parser.Parser()
+parser= Parser.Parser() # to use same instance
 connection = pika.adapters.blocking_connection.BlockingConnection
 channel = pika.adapters.blocking_connection.BlockingChannel
 
@@ -18,8 +18,8 @@ class ReceiveMQ:
         global connection, channel
         connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
         channel = connection.channel()
-        channel.queue_declare(queue=self.queue)  ## queue name
-        ##consume
+        channel.queue_declare(queue=self.queue)  # queue name
+        # consume
         channel.basic_consume(callback,
                           queue=self.queue,
                           no_ack=True)
@@ -30,6 +30,6 @@ class ReceiveMQ:
 def callback(ch, method, properties, body):
     msg = body
     print("[x] Received %r" % msg)
-    parser.setMsg(msg)
-    parser.parsing()
+    parser.setMsg(msg) # insert msg = jsondata(sender, receiver, subject), HTML id,
+    parser.parsing() # parse the msg
     connection.close()

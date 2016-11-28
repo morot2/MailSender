@@ -3,7 +3,7 @@ import json
 from Sender import SendMail
 
 class Parser:
-    msg=''
+    msg='' # msg = jsondata(sender, receiver, subject), HTML id,
     sendMail= SendMail.SendMail()
 
     def getSendMail(self):
@@ -16,5 +16,5 @@ class Parser:
         id,params=self.msg.decode('utf-8').split('-')
         dictParams=json.loads(params)
         self.sendMail.setMailInfo(dictParams['sender'],dictParams['receiver'],dictParams['subject'])
-        self.sendMail.serTemplateID(id)
-        self.sendMail.setMsg("hello")
+        self.sendMail.setTemplateID(id)
+        self.sendMail.setMsg("hello") # not used currently
