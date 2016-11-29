@@ -2,13 +2,13 @@ from bs4 import BeautifulSoup
 import codecs,pickle
 
 class EditHTML:
-    varifyKey=''
+    verifyKey=''
     templateId=''
 
-    def setVarifyKey(self,varifyKey):
-        self.varifyKey=varifyKey
+    def setVerifyKey(self,verifyKey):
+        self.verifyKey=verifyKey
 
-    def setTemplateId(self,templateId):
+    def setTemplateId(self, templateId):
         self.templateId=templateId
 
     def editHTML(self):
@@ -16,7 +16,7 @@ class EditHTML:
         htmlFile = codecs.open('./template/template'+self.templateId+'.html','r','utf-8')
         html = htmlFile.read()
         soup = BeautifulSoup(html, 'html.parser')
-        soup.mark.string = self.varifyKey
+        soup.mark.string = self.verifyKey
         htmlFile.close()
 
         # write edited html

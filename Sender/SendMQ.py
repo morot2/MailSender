@@ -1,16 +1,13 @@
 import pika
 
-
 class SendMQ:
 
     params = "" # json data
-    templateId = "" # html template ID
     msg=""
 
-    def setVar(self,tempId,params):
-        self.templateId=tempId
+    def setVar(self, params):
         self.params=params
-        self.msg = "-".join([self.templateId, self.params])
+        self.msg = params
 
     def sendMQ(self):
         connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
