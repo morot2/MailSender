@@ -9,7 +9,7 @@ channel = pika.adapters.blocking_connection.BlockingChannel
 
 class ReceiveMQ:
 
-    queue='test'
+    queue='emailMessageQueue'
 
     def setQueue(self,queue):
         self.queue=queue

@@ -15,9 +15,9 @@ class SendMQ:
     def sendMQ(self):
         connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
         channel = connection.channel()
-        channel.queue_declare(queue='test')
+        channel.queue_declare(queue='emailMessageQueue')
         channel.basic_publish(exchange='',
-                      routing_key='test', # route to test queue
+                      routing_key='emailMessageQueue', # route to test queue
                       body=self.msg)
         print(" [x] Sent %r" % self.msg)
         connection.close()
