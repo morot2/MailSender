@@ -20,8 +20,6 @@ class SendMail:
     smtpPassword=""
 
     msg = MIMEMultipart('alternative')
-    msg['From'] = sender
-    msg['To'] = receiver
 
     def setTemplateID(self,templeId):
         self.templateID=templeId
@@ -29,7 +27,9 @@ class SendMail:
     def setMailInfo(self, sender, receiver, subject):
         self.sender = sender
         self.receiver = receiver
-        self.msg['Subject']=subject
+        self.msg['To'] = receiver
+        self.msg['From'] = sender
+        self.msg['Subject'] = subject
 
     def setMsg(self, text):
         # attach html text into message
