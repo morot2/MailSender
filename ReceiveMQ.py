@@ -1,6 +1,6 @@
 import pika
 
-from Sender import Parser
+import Parser
 
 connection = pika.adapters.blocking_connection.BlockingConnection
 channel = pika.adapters.blocking_connection.BlockingChannel

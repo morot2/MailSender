@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740f3bcd-0862-40a3-8d2e-cd7ea7bc35c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sender/__init.py__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/MainTest.py" afterPath="$PROJECT_DIR$/MainTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/Parser.py" afterPath="$PROJECT_DIR$/Parser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/ReceiveMQ.py" afterPath="$PROJECT_DIR$/ReceiveMQ.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/SendMQ.py" afterPath="$PROJECT_DIR$/SendMQ.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/SendMail.py" afterPath="$PROJECT_DIR$/SendMail.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sender/editHTML.py" afterPath="$PROJECT_DIR$/editHTML.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MailSender.iws" />
@@ -15,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MailSender$MainTest.coverage" NAME="MainTest Coverage Results" MODIFIED="1480423544313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MailSender$MainTest.coverage" NAME="MainTest Coverage Results" MODIFIED="1480429492502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MailSender$Main2.coverage" NAME="Main2 Coverage Results" MODIFIED="1479631272473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MailSender$SendMQ.coverage" NAME="SendMQ Coverage Results" MODIFIED="1479623269124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MailSender$MainTest__1_.coverage" NAME="MainTest (1) Coverage Results" MODIFIED="1480415098683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sending" />
@@ -36,32 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/template1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#section#1;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#section#1;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#mark#0;n#section#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="editHTML.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/editHTML.py">
+        <entry file="file://$PROJECT_DIR$/editHTML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -69,21 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/MainTest.py">
+        <entry file="file://$PROJECT_DIR$/MainTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -91,33 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init.py__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sender/__init.py__.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/Parser.py">
+        <entry file="file://$PROJECT_DIR$/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="52">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ReceiveMQ.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/ReceiveMQ.py">
+        <entry file="file://$PROJECT_DIR$/ReceiveMQ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -126,10 +101,10 @@
         </entry>
       </file>
       <file leaf-file-name="SendMail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/SendMail.py">
+        <entry file="file://$PROJECT_DIR$/SendMail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -137,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMQ.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sender/SendMQ.py">
+      <file leaf-file-name="SendMQ.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SendMQ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,13 +153,10 @@
         <option value="$PROJECT_DIR$/Main2.py" />
         <option value="$PROJECT_DIR$/ReceiveMQ.py" />
         <option value="$PROJECT_DIR$/SendMQ.py" />
-        <option value="$PROJECT_DIR$/Parser.py" />
         <option value="$PROJECT_DIR$/test2/EditHTML.py" />
         <option value="$PROJECT_DIR$/FileTest.py" />
         <option value="$PROJECT_DIR$/editHTML.py" />
         <option value="$PROJECT_DIR$/SendMail.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/MainTest.py" />
         <option value="$PROJECT_DIR$/template/template2.html" />
         <option value="$PROJECT_DIR$/Sender/test.py" />
         <option value="$PROJECT_DIR$/Sender/editHTML.py" />
@@ -200,8 +172,19 @@
         <option value="$PROJECT_DIR$/Sender/Parser.py" />
         <option value="$PROJECT_DIR$/Sender/ReceiveMQ.py" />
         <option value="$PROJECT_DIR$/Sender/SendMail.py" />
-        <option value="$PROJECT_DIR$/Sender/MainTest.py" />
         <option value="$PROJECT_DIR$/Sender/__init.py__.py" />
+        <option value="$PROJECT_DIR$/Sender/__init__.py" />
+        <option value="$PROJECT_DIR$/Sender/MainTest.py" />
+        <option value="$PROJECT_DIR$/Sender/test1.py" />
+        <option value="$PROJECT_DIR$/Sender/test2.py" />
+        <option value="$PROJECT_DIR$/Test/test1.py" />
+        <option value="$PROJECT_DIR$/Test/test2.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Parser.py" />
+        <option value="$PROJECT_DIR$/MainTest.py" />
       </list>
     </option>
   </component>
@@ -264,10 +247,6 @@
               <option name="myItemId" value="MailSender" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -279,7 +258,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sender" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,16 +274,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender" />
+      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\Test" />
+      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender" />
+      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\test2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender" />
       <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\temple" />
       <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sending" />
       <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\dfd" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender" />
-      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender" />
-      <recent name="C:\Users\lee seung yoon\PycharmProjects\MailSender\test2" />
     </key>
   </component>
   <component name="RunManager" selected="Python.MainTest">
@@ -321,7 +301,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MailSender" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender\ReceiveMQ.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\ReceiveMQ.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -339,7 +319,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MailSender" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender\Main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -375,7 +355,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MailSender" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\Sender\MainTest.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lee seung yoon\PycharmProjects\MailSender\MainTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -655,18 +635,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48608837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.400982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.400982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48608837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -685,15 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test2/MailSender.py" />
-    <entry file="file://$PROJECT_DIR$/NewMailSender.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/email/_policybase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6840">
-          <caret line="363" column="0" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2/MailSender.py" />
     <entry file="file://$PROJECT_DIR$/NewMailSender.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/email/_policybase.py">
@@ -717,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SendToMQ.py" />
     <entry file="file://$PROJECT_DIR$/Receivce.py" />
-    <entry file="file://$PROJECT_DIR$/test/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test/TestSender.py" />
     <entry file="file://$PROJECT_DIR$/NewMailSender.py" />
     <entry file="file://$PROJECT_DIR$/Send.py" />
@@ -746,7 +717,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dfd/editHTML.py" />
     <entry file="file://$PROJECT_DIR$/dfd/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Sender/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Sending/ReceiveMQ.py" />
     <entry file="file://$PROJECT_DIR$/Sending/Main.py" />
     <entry file="file://$PROJECT_DIR$/temple/template1.html" />
@@ -757,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/Sending/SendMail.py" />
     <entry file="file://$PROJECT_DIR$/template/template1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
+        <state relative-caret-position="0">
           <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -776,73 +746,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sending/editHTML.py" />
     <entry file="file://$PROJECT_DIR$/Sending/Parser.py" />
-    <entry file="file://$PROJECT_DIR$/Sender/Main.py">
+    <entry file="file://$PROJECT_DIR$/Sender/__init.py__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/editHTML.py">
+    <entry file="file://$PROJECT_DIR$/Sender/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editHTML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/MainTest.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/Parser.py">
+    <entry file="file://$PROJECT_DIR$/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="52">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReceiveMQ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/ReceiveMQ.py">
+    <entry file="file://$PROJECT_DIR$/SendMail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/SendMail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/SendMQ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sender/__init.py__.py">
+    <entry file="file://$PROJECT_DIR$/SendMQ.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

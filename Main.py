@@ -1,4 +1,5 @@
-from Sender import ReceiveMQ, SendMQ, SendMail
+import SendMQ
+import ReceiveMQ, SendMail
 
 sendMQ = SendMQ.SendMQ()
 receiveMQ = ReceiveMQ.ReceiveMQ()

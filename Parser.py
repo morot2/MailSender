@@ -1,6 +1,8 @@
 import json
-from Sender import editHTML
-from Sender import SendMail
+
+import SendMail
+import editHTML
+
 
 class Parser:
     sendMail = SendMail.SendMail()
